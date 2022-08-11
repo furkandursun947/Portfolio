@@ -1,4 +1,16 @@
-# portfolionew
+# Personal Portfolio
+
+
+
+
+## Features
+
+- Builded with Vue3 
+- One page layout 
+- Fully Responsive
+- Animated 
+- Tailwind CSS 
+
 
 ## Project setup
 ```

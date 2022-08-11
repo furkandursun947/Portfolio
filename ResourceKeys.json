@@ -1,0 +1,48 @@
+{ 
+    "homeHi": "Hi, my name is",
+    "name": "Furkan Emre.",
+    "welcome": "Welcome to my portfolio!",
+    "whoAm": "A Front-End Developer who is passionate about delivering outstanding quality and service. From my childhood, I always knew I had an interest in computers. So I am building my career in it with pleasure.",
+    "firstAbout": "After that, I wanted to study computer science at one of the best universities in Turkey. I graduated from Istanbul Technical University at the end of 2021. In 2020, I discovered that I am interested in Web development.",
+    "works": [
+        {"id": 0, "active": true, "label": "IBTECH", "special": false},
+        {"id": 1, "active": false, "label": "IBTECH", "special": false},
+        {"id": 2, "active": false, "label": "New", "special": true}
+    ],
+    "renderItems":[
+        {"header": "Internship", "date": "February 2021 - June 2022", "description":[
+            "I got involved with a new project that is an intra-company website.",
+            "I improved myself in security with courses that the company provided."
+            
+        ], "technoliges": ["ReactJS & Redux", ".NET Core", "MsSQL"]},
+        {"header": "Mid-Level Application Engineer", "date": "June 2022 - Current", "description":[
+            "I get involved with many projects and improve myself.",
+            "Working with a big team to provide solutions for corporate bank users. We interact closely with designers to develop high-quality bank websites.",
+            "Since I have been working for a bank, I have improved myself in writing secure code in every possible way."
+        ], "technoliges": ["Angular", ".NET Core", "ASP.NET/ASPX", "MsSQL"]},
+        {"header": "Unknown", "date": "??? - ???", "description": ""}
+
+    ],
+    "techItems":[
+        {"text": "JavaScript, TypeScript, JQuery", "level": 9},
+        {"text": "HTML/CSS/Tailwind CSS", "level": 9},
+        {"text": "React&Redux", "level": 7},
+        {"text": "Angular", "level": 7},
+        {"text": "Vue&Vuex (New)", "level": 5},
+        {"text": "NodeJS, Express", "level": 7},
+        {"text": ".NET/.NET Core/ASP.NET", "level": 3},
+        {"text": "MySQL, MongoDB", "level": 7}
+    ],
+    "languages":[
+        {"text": "Turkish", "level": "Native"},
+        {"text": "English", "level": "C1"}
+
+    ],
+    "contactHeader": "We have come to the end!",
+    "contactText": "Feel free to reach out to me, whether it's just a hello or an offer. Also if you have any question, I'am open to it!",
+    "footerText": "© Furkan Emre Dursun"
+}
+
+
+
+

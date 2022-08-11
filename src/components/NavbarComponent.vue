@@ -7,10 +7,10 @@
                 </div>
                 <div class="float-right" >
                     <ul class="m-0" v-if="!isMobile" >
-                        <li data-aos="fade-left" style="" class="inline-block mx-3 cursor-pointer hover:font-bold"><a href="#field1">About</a></li>
-                        <li data-aos="fade-left" style="" class="inline-block mx-3 cursor-pointer hover:font-bold"><a href="#field2">Work</a></li>
-                        <li data-aos="fade-left" style="" class="inline-block mx-3 cursor-pointer hover:font-bold"><a href="#field3">Skills</a></li>
-                        <li data-aos="fade-left" style="" class="inline-block mx-3 cursor-pointer hover:font-bold"><a href="#field4">Contact</a></li>
+                        <li data-aos="fade-left" style="" class="inline-block mx-3 cursor-pointer hover:font-bold"><a href="#field1" >About</a></li>
+                        <li data-aos="fade-left" style="" class="inline-block mx-3 cursor-pointer hover:font-bold"><a href="#field2" >Work</a></li>
+                        <li data-aos="fade-left" style="" class="inline-block mx-3 cursor-pointer hover:font-bold"><a href="#field3" >Skills</a></li>
+                        <li data-aos="fade-left" style="" class="inline-block mx-3 cursor-pointer hover:font-bold"><a href="#field4" >Contact</a></li>
                     </ul>
                     <button v-else class="bg-transparent z-20" :class="showDrawer ? 'x' : 'bar'" @click="handleDrawer">
                         <div class="hamBox">
@@ -23,13 +23,13 @@
             </div>
 
         </div>    
-        <div :class="showDrawer ? 'openDrawer': ''" class="__drawer h-full fixed top-0 z-10" >
+        <div :class="this.showDrawer ? 'openDrawer': ''" class="__drawer h-full fixed top-0 z-10" >
             <div class="__contentDrawer p-8" style="font-size: 20px">
                 <ul class="m-0">
-                    <li data-aos="fade-left" style="" class="block text-center mt-10 p-16 cursor-pointer hover:font-bold"><a href="#field1">About</a></li>
-                    <li data-aos="fade-left" style="" class="block text-center p-16 cursor-pointer hover:font-bold"><a href="#field2">Work</a></li>
-                    <li data-aos="fade-left" style="" class="block text-center p-16 cursor-pointer hover:font-bold"><a href="#field3">Skills</a></li>
-                    <li data-aos="fade-left" style="" class="block text-center p-16 cursor-pointer hover:font-bold"><a href="#field4">Contact</a></li>
+                    <li data-aos="fade-left" style="" class="block text-center mt-10 p-16 cursor-pointer hover:font-bold"><a href="#field1" @click="handleDrawer">About</a></li>
+                    <li data-aos="fade-left" style="" class="block text-center p-16 cursor-pointer hover:font-bold"><a href="#field2" @click="handleDrawer">Work</a></li>
+                    <li data-aos="fade-left" style="" class="block text-center p-16 cursor-pointer hover:font-bold"><a href="#field3" @click="handleDrawer">Skills</a></li>
+                    <li data-aos="fade-left" style="" class="block text-center p-16 cursor-pointer hover:font-bold"><a href="#field4" @click="handleDrawer">Contact</a></li>
                 </ul>
             </div>
         </div>

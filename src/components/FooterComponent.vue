@@ -24,7 +24,7 @@
                     </a>
                 </li>
                 <li title="Resume">
-                    <a href="https://github.com/furkandursun947/Portfolio/raw/master/Furkan%20Emre_Dursun_CV%20(1)%20(8).pdf" target="_blank">
+                    <a href="https://github.com/furkandursun947/Portfolio/raw/master/Furkan%20Emre_Dursun_CV.pdf" target="_blank">
                         <i class="fas fa-file"></i>
                     </a>
                 </li>

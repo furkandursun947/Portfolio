@@ -10,7 +10,6 @@ https://furkanemredursun.com
 - Fully Responsive
 - Animated 
 - Tailwind CSS 
-- Facebook Login Provider
 
 
 ## Project setup

@@ -38,6 +38,12 @@
         {"text": "English", "level": "C1"}
 
     ],
+    "projects":[
+        {"title": "UniHub", "techs": ["React&Redux", "AWS", "Node.js", "Swagger"], "github": "https://github.com/furkandursun947/uniHub-Client", "image": "https://i.ibb.co/xz95j7P/unihub.png"},
+        {"title": "Medium Clone", "techs": ["React", "Next.js", "TailwindCSS", "SanityCMS", "TypeScript"], "github":"https://github.com/furkandursun947/Medium-Clone", "image": "https://miro.medium.com/max/1200/1*jfdwtvU6V6g99q3G7gq7dQ.png"},
+        {"title": "Facebook Clone", "techs": ["Facebook Provider", "React", "Next.js", "Firebase", "Javascript", "TailwindCSS"], "github": "https://github.com/furkandursun947/Facebook-Clone" ,"image": "http://www.marketingturkiye.com.tr/wp-content/uploads/2019/11/Facebook-Branding-GIF.gif"},
+        {"title": "Movie App", "techs": ["React", "Next.js", "TailwindCSS", "SanityCMS", "TypeScript"], "github": "https://github.com/furkandursun947/Movie-App" ,"image":"https://i.ibb.co/W5gt8vk/movies.png"}
+    ],
     "contactHeader": "We have come to the end!",
     "contactText": "Feel free to reach out to me, whether it's just a hello or an offer. Also if you have any question, I'am open to it!",
     "footerText": "© Furkan Emre Dursun"

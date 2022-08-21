@@ -8,6 +8,8 @@
         <AboutComponent/>
         <ExperiencesComponent/>
         <TechnologiesComponent/>
+        <ProjectsComponent/>
+
         <ContactComponent/>
         <FooterComponent/>
 
@@ -20,12 +22,14 @@
 <script>
 import Navbar from './components/NavbarComponent.vue';
 import HomeComponent from './components/HomeComponent.vue';
-import LeftOrientations from './components/LeftOrientations.vue';
 import AboutComponent from './components/AboutComponent.vue';
 import ExperiencesComponent from './components/ExperiencesComponent.vue';
 import TechnologiesComponent from './components/TechnologiesComponent.vue';
 import ContactComponent from './components/ContactComponent.vue';
+import ProjectsComponent from './components/ProjectsComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import LeftOrientations from './components/LeftOrientations.vue';
+
 require('./scripts/darkMode')
 
 export default {
@@ -38,7 +42,9 @@ export default {
     ExperiencesComponent,
     TechnologiesComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsComponent,
+    
 }
 }
 </script>
